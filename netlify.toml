@@ -8,3 +8,6 @@
 [dev]
   # Local dev command. A.k.a npm start
   command = "react-scripts start"
+
+[context.production]
+  environment = {  FAUNADB_SERVER_SECRET= "fnAEKHPRWiACCiBENbaLaE5J5eJiQozfWxlryf3i"}  
